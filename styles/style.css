@@ -256,6 +256,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: -1px;
 }
 
 .content__card-link_current {
@@ -290,6 +291,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 }
 
 .more-button {
-  width: 399px;
+  width: 100%;
   margin-top: 30px;
 }
